@@ -2,7 +2,8 @@
 
 
 #Part 1:
-## "makeCacheMatrix" creates a special matrix object that can cache its inverse.
+## "makeCacheMatrix" creates a special matrix object that can cache its inverse. Cacheing saves time
+## when the code needs to run multiple times.
 
 makeCacheMatrix <- function(x = matrix()) {
   inver <- NULL
